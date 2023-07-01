@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+    text-align: center;
+    background-color: lightsteelblue;
+    font-size: 14;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.remover {
+    margin-left: 35px;
+}
+
+li {
+    padding-top: 15px;
+}
+
+.naoRealizada {
+    list-style-type: '☐  ';
+    list-style-position: inside;
+    cursor: pointer;
+    text-indent: 10px;
+
+}
+.realizada { 
+    list-style-type: '☑  ';
+    list-style-position: inside;
+    text-indent: 10px;
+    cursor: pointer;
+    text-decoration: line-through;
+
+}
+header, main {
+    border: solid 2px rgb(6, 6, 55);
+    background-color: rgb(197, 208, 223);
+    border-radius: 10px;
+    margin: 0 25% 0 25%;
+    text-align: center;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #07285C; 
+    box-shadow: 5px 5px 15px 5px #07285C;
+}
+
+h2, h4 {
+    display: inline-flex;
+    text-align: center;
+    text-decoration-color:  rgb(6, 6, 55);
+}
+
+
+header img {
+    display: flex;
+    position:absolute;
+    top: 0;
+    right: 0;   
+    margin: 15px 26% 0 26%;
+    cursor: pointer;
+}
+
+footer {
+    border: solid 2px rgb(6, 6, 55);
+    background-color: rgb(197, 208, 223);
+    border-radius: 10px;
+    margin: 0 25% 0 25%;
+    text-align: center;
+    font-size: 12px;
+    padding: none;
+    -webkit-box-shadow: 5px 5px 15px 5px #07285C; 
+    box-shadow: 5px 5px 15px 5px #07285C;
+
+}
